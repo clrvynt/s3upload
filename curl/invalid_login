@@ -1,0 +1,1 @@
+curl -i -u login:password1 -X POST "http://localhost:9000/session"

@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Basic Authentication -- returns a text access token
+POST     /session		controllers.SessionController.login
+
+# Upload a large file with ?access_token and fileId
+POST	/file/:fileId	controllers.UploadController.uploadFile(fileId)

@@ -1,1 +1,0 @@
-curl --form "payload=@sample.mp4"  "http://localhost:9000/foo"
